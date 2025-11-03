@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.pramod.shop
+REDIS_HOST: redis.pramod.shop
+CATALOGUE_HOST: catalogue.pramod.shop
+CART_HOST: cart.pramod.shop
+USER_HOST: user.pramod.shop
+RABBITMQ_HOST: rabbitmq.pramod.shop
+MYSQL_HOST: mysql.pramod.shop
+SHIPPING_HOST: shipping.pramod.shop
+PAYMENT_HOST: payment.pramod.shop
