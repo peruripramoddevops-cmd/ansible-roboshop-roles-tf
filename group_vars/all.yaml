@@ -1,4 +1,4 @@
-MONGODB_HOST: mongodb-{{ env }}.pramod.shop # mongodb-dev.daws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.pramod.shop
 REDIS_HOST: redis-{{ env }}.pramod.shop
 CATALOGUE_HOST: catalogue-{{ env }}.pramod.shop
 CART_HOST: cart-{{ env }}.pramod.shop
