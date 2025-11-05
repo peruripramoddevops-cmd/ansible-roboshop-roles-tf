@@ -3,9 +3,9 @@
   connection: local
   vars:
     ami_id: ami-09c813fb71547fc4f
-    sg_id: sg-07c8acf3fa6b923fa # replace with your SG ID
-    zone_id: "Z0948150OFPSYTNVYZOY" # replace with your ID
-    domain_name: "daws86s.fun"
+    sg_id: sg-07e0e88e98e26af12 # replace with your SG ID
+    zone_id: "Z05714843SO1YQWMF1N5N" # replace with your ID
+    domain_name: "pramod.shop"
     # we can pass instances through command line using -e
     # instances: 
     # - mongodb
