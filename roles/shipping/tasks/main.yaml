@@ -25,9 +25,10 @@
     login_password: RoboShop@1
     target: "{{ item }}"
   loop:
-  - /app/db/schema.sql
-  - /app/db/app-user.sql 
-  - /app/db/master-data.sql
+    - /app/db/schema.sql
+    - /app/db/app-user.sql 
+    - /app/db/master-data.sql
+  become: yes
 
 - name: system setup
   ansible.builtin.import_role:
