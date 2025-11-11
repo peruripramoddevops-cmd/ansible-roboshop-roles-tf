@@ -20,15 +20,14 @@
   community.mysql.mysql_db:
     state: import
     name: all
-    login_host: mysql-dev.pramod.shop
-    login_user: root
-    login_password: RoboShop@1
+    login_host: "{{ MYSQL_HOST }}"
+    login_user: "{{ MYSQL_ROOT_USER }}"
+    login_password: "{{ MYSQL_ROOT_PASSWORD }}"
     target: "{{ item }}"
   loop:
-    - /app/db/schema.sql
-    - /app/db/app-user.sql 
-    - /app/db/master-data.sql
-  become: yes
+  - /app/db/schema.sql
+  - /app/db/app-user.sql 
+  - /app/db/master-data.sql
 
 - name: system setup
   ansible.builtin.import_role:
