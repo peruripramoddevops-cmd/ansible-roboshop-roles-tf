@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-{{ env }}.pramod.shop
+MONGODB_HOST: mongodb-{{ env }}.pramod.shop # mongodb-dev.pramod.shop
 REDIS_HOST: redis-{{ env }}.pramod.shop
-CATALOGUE_HOST: catalogue-{{ env }}.pramod.shop
-CART_HOST: cart-{{ env }}.pramod.shop
-USER_HOST: user-{{ env }}.pramod.shop
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.pramod.shop
+CART_HOST: cart.backend-alb-{{ env }}.pramod.shop
+USER_HOST: user.backend-alb-{{ env }}.pramod.shop
 RABBITMQ_HOST: rabbitmq-{{ env }}.pramod.shop
 MYSQL_HOST: mysql-{{ env }}.pramod.shop
-SHIPPING_HOST: shipping-{{ env }}.pramod.shop
-PAYMENT_HOST: payment-{{ env }}.pramod.shop
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.pramod.shop
+PAYMENT_HOST: payment.backend-alb-{{ env }}.pramod.shop
